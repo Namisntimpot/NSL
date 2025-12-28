@@ -1,0 +1,7 @@
+/models
+/samples
+/exp
+/__pycache__
+/obj*
+/debug
+/*.png

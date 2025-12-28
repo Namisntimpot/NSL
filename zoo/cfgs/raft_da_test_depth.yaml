@@ -1,0 +1,27 @@
+raft_class: RAFTStereoWithDAV2
+eval_mode: depth
+
+mixed_precision: True
+train_iters: 22
+valid_iters: 32
+corr_implementation: reg
+shared_backbone: False
+corr_levels: 4
+corr_radius: 4
+n_downsample: 2
+context_norm: batch
+slow_fast_gru: False
+n_gru_layers: 3
+hidden_dims: [128, 128, 128]
+
+# about vit
+vit_type: vitb
+pretrained_path: zoo/ckpts/dav2ft_distill-any-depth_vitb_deepsl_patall_l1_resize_default-lr.pth # zoo/DAv2/metric_depth/exp/deepsl_pat_all_silog_dep_from_nometric_distill-any-dep_resize_lr5e-6/latest.pth
+use_bn: False
+use_clstoken: False
+freeze_vit: True
+
+img_gamma: null
+saturation_range: [0, 1.4]
+spatial_scale: [-0.2, 0.4]
+noyjitter: False

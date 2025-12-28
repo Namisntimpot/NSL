@@ -1,0 +1,20 @@
+raft_class: RAFTStereo
+eval_mode: depth
+
+mixed_precision: True
+train_iters: 22
+valid_iters: 32
+corr_implementation: reg
+shared_backbone: False
+corr_levels: 4
+corr_radius: 4
+n_downsample: 2
+context_norm: batch
+slow_fast_gru: False
+n_gru_layers: 3
+hidden_dims: [128, 128, 128]
+
+img_gamma: null
+saturation_range: [0, 1.4]
+spatial_scale: [-0.2, 0.4]
+noyjitter: False

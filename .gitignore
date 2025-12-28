@@ -1,0 +1,14 @@
+__pycache__
+/exp
+/*.pkl
+/*dbg*
+/*debug*
+/*.png
+/exp
+/tmp*
+collect_deepsl*
+/alacarte*
+/realsense
+/ret_*
+/collect*
+/pointclouds_for_comparison*
