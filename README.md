@@ -17,10 +17,10 @@ Our model — trained **entirely on synthetic data** — achieves good **sim2rea
 + **[Monocular structured-light checkpoint](https://drive.google.com/file/d/1Gh7TyEdGahgdGDbwSXEgVXAbrS4__LYK/view?usp=sharing)**  
   (input: one structured-light camera image + one projected pattern)
 
-+ **[Binocular structured-light checkpoint](https://drive.google.com/file/d/1UCC2g0yzKE-xC8JQ_22fAOr21ic-C0NT/view?usp=sharing)**  
++ **[Binocular structured-light checkpoint](https://drive.google.com/file/d/1S5woPaqsqxjin84RHIZjzp66stMpw-Vy/view?usp=sharing)**  
   (input: left + right structured-light camera images)
 
-+ **[Binocular + projector structured-light checkpoint](https://drive.google.com/file/d/1S5woPaqsqxjin84RHIZjzp66stMpw-Vy/view?usp=sharing)**  
++ **[Binocular + projector structured-light checkpoint](https://drive.google.com/file/d/1UCC2g0yzKE-xC8JQ_22fAOr21ic-C0NT/view?usp=sharing)**  
   (input: left + right camera images + projector pattern)  
   **Note:** In practice, this model requires *strict trinocular rectification* across left–projector–right. All three optical centers must be collinear — something extremely difficult to achieve with off-the-shelf hardware.  
   **We strongly recommend NOT using this model in real setups until a more practical solution is developed.**  
